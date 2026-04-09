@@ -1,0 +1,21 @@
+---
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/air";
+@import "minimal-mistakes";
+
+body {
+  font-family: Georgia, serif;
+  font-size: 0.85em;
+}
+
+.page__content p {
+  font-size: 0.9em;
+}
+
+.page {
+  width: 100%;
+  padding-right: 0;
+}
