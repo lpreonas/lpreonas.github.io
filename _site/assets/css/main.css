@@ -3,6 +3,7 @@
    Air skin
    ========================================================================== */
 /* Colors */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
 .page__footer {
   color: #fff !important;
 }
@@ -5112,6 +5113,292 @@ body {
     display: none !important;
     height: 1px !important;
   }
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 0.85em;
+  color: #242424;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 23%);
+}
+
+.page__content p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+a {
+  color: hsl(235, 62%, 60%);
+}
+
+a:visited {
+  color: #5a64d8;
+}
+
+a:hover {
+  color: #000dff;
+}
+
+/* Top nav menu links */
+.greedy-nav a {
+  color: hsl(0, 0%, 23%);
+}
+
+.greedy-nav a:hover {
+  color: #000dff;
+}
+
+/* Bold active nav item */
+.greedy-nav .active {
+  font-weight: 600;
+}
+
+/* Remove site title from top left */
+/* Reduce top buffer */
+.page__hero,
+.page__hero--overlay {
+  margin-bottom: 0;
+}
+
+#main {
+  padding-top: 0.5em;
+}
+
+/* Widen content area */
+@media (min-width: 80em) {
+  .page {
+    padding-right: 0 !important;
+    margin-left: 300px !important;
+    width: calc(100% - 320px) !important;
+  }
+}
+/* Hide author name in sidebar only */
+.author__name {
+  display: none;
+}
+
+/* Add vertical spacing after line breaks in author bio */
+.author__bio br {
+  display: block;
+  margin-bottom: 0.1em;
+}
+
+/* Sticky navigation */
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Make masthead background fully opaque */
+.masthead {
+  background-color: #fff !important;
+  opacity: 1 !important;
+}
+
+/* Fix sidebar so it doesn't scroll */
+.sidebar {
+  position: sticky;
+  top: 0;
+}
+
+/* Make masthead background fully opaque */
+.masthead {
+  background-color: #fff !important;
+  opacity: 1 !important;
+}
+
+/* Fix sidebar so it doesn't scroll */
+.sidebar {
+  position: sticky;
+  top: 0;
+}
+
+/* Fix sidebar position */
+.sidebar.sticky {
+  position: fixed !important;
+  top: 60px;
+  width: 200px;
+}
+
+/* White backgrounds everywhere */
+body {
+  background-color: #fff !important;
+}
+
+.sidebar {
+  background-color: #fff !important;
+}
+
+.masthead {
+  background-color: #fff !important;
+}
+
+.page__footer {
+  background-color: #fff !important;
+  color: #242424 !important;
+}
+
+.initial-content {
+  background-color: #fff !important;
+}
+
+/* Force white nav background */
+.masthead__inner-wrap {
+  background-color: #fff !important;
+}
+
+nav.greedy-nav {
+  background-color: #fff !important;
+}
+
+/* Nav font size and active bold */
+.greedy-nav .visible-links a {
+  font-size: 1.05em;
+  font-weight: 400;
+}
+
+.greedy-nav .visible-links a.active {
+  font-weight: 700 !important;
+}
+
+/* Active nav highlighting per page */
+.page-bio .greedy-nav a[href="/bio/"],
+.page-research .greedy-nav a[href="/research/"],
+.page-teaching .greedy-nav a[href="/teaching/"],
+.page-office-hours .greedy-nav a[href="/office-hours/"],
+.page-contact .greedy-nav a[href="/contact/"] {
+  font-weight: 700 !important;
+  color: hsl(235, 62%, 60%) !important;
+}
+
+/* Active nav item */
+.greedy-nav a.nav--active {
+  font-weight: 700 !important;
+  color: hsl(235, 62%, 60%) !important;
+}
+
+/* Active nav item */
+.greedy-nav a.nav--active {
+  font-weight: 700 !important;
+  color: hsl(235, 62%, 60%) !important;
+}
+
+/* Match Louis Preonas title to nav font size and weight */
+.site-title {
+  font-family: "Inter", sans-serif !important;
+  font-size: 1.3em !important;
+  font-weight: 500 !important;
+  color: hsl(0, 0%, 23%) !important;
+}
+
+/* Make nav items weight 500 too */
+.greedy-nav .visible-links a {
+  font-weight: 500 !important;
+}
+
+/* Remove horizontal lines between list items */
+.page__content ul li {
+  border-bottom: none !important;
+}
+
+/* Remove all lines between list items */
+.page__content li {
+  border: none !important;
+  border-bottom: none !important;
+}
+
+.page__content ul li + li {
+  border-top: none !important;
+}
+
+.page__content ul {
+  border: none !important;
+}
+
+/* Nuclear option - remove all borders from list items */
+.page__content li,
+.page__content li::before,
+.page__content li::after,
+.page__content ul li,
+.page__content ol li {
+  border: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* Wider letter spacing for Louis Preonas and nav */
+.site-title {
+  letter-spacing: 0.05em !important;
+}
+
+.greedy-nav .visible-links a {
+  letter-spacing: 0.04em !important;
+}
+
+/* Reduce left buffer on content area */
+@media (min-width: 80em) {
+  .page {
+    margin-left: 220px !important;
+  }
+}
+/* Narrow the sidebar */
+.sidebar {
+  width: 180px !important;
+  min-width: 180px !important;
+}
+
+.sidebar.sticky {
+  width: 180px !important;
+}
+
+/* Reduce left margin on article */
+article.page {
+  margin-left: 0 !important;
+  padding-left: 1em !important;
+}
+
+/* Widen article content */
+article.page {
+  width: 80% !important;
+  float: right !important;
+}
+
+/* Force all list items to 16px */
+.page__content li {
+  font-size: 16px !important;
+}
+
+/* Force consistent line height on all list items and children */
+.page__content li,
+.page__content li * {
+  line-height: 1.7 !important;
+}
+
+/* Remove horizontal lines between sections */
+.page__content hr {
+  display: none !important;
+}
+
+/* Section headers on teaching page - non-bold and italic */
+.page__content h2 {
+  font-weight: 400 !important;
+  font-style: italic !important;
+}
+
+/* Smaller photo captions */
+.page__content p > em:only-child {
+  font-size: 12px !important;
+}
+
+/* Keep journal titles at normal size */
+.page__content li strong em,
+.page__content li em strong {
+  font-size: 16px !important;
 }
 
 /*# sourceMappingURL=main.css.map */

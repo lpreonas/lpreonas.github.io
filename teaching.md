@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Teaching"
 author_profile: true
 permalink: /teaching/
 ---
@@ -25,4 +24,10 @@ permalink: /teaching/
 
 - [MBA 212: Energy and Environmental Markets](/files/Syllabus-V10.pdf), Spring 2015 (Reader)
 
-In both of these courses, I facilitated the [Electricity Strategy Game](https://esg.haas.berkeley.edu/home/about), an interactive teaching tool developed by Severin Borenstein and Jim Bushnell.
+In both of these courses, I facilitated the [Electricity Strategy Game](https://esg.haas.berkeley.edu/home/about), an interactive teaching tool developed by Severin Borenstein and Jim Bushnell. In the game, students are assigned to teams, and each team purchases a portfolio of electric generating plants and bids into a simulated electricity market. The ESG teaches fundamentals of auction theory, market power, investment under uncertainty, regulation of energy markets, and the interaction of overlapping environmental policies.
+
+---
+
+<img src="/images/lodhi.jpeg" style="width: 100%;">
+<p style="font-style: italic; font-size: 12px; margin-top: 0.5em;">I took this photo somewhere in Lodhi Gardens, in New Delhi.</p>
+
