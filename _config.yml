@@ -3,11 +3,12 @@ name: "Louis Preonas"
 description: "Associate Professor, Agricultural and Resource Economics, University of Maryland"
 url: "https://lpreonas.github.io"
 
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 minimal_mistakes_skin: "air"
 
 plugins:
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 author:
   name: "Louis Preonas"
