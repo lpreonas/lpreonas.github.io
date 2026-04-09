@@ -1,4 +1,4 @@
-<p>Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+<p>Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
 
 <h3 id="gfm-code-blocks">GFM Code Blocks</h3>
 
@@ -95,9 +95,9 @@
 22
 </pre></td><td class="code"><pre><span class="c1">// 'gulp html' -- does nothing</span>
 <span class="c1">// 'gulp html --prod' -- minifies and gzips HTML files for production</span>
-<span class="nx">gulp</span><span class="p">.</span><span class="nf">task</span><span class="p">(</span><span class="dl">'</span><span class="s1">html</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-  <span class="k">return</span> <span class="nx">gulp</span><span class="p">.</span><span class="nf">src</span><span class="p">(</span><span class="nx">paths</span><span class="p">.</span><span class="nx">siteFolderName</span> <span class="o">+</span> <span class="nx">paths</span><span class="p">.</span><span class="nx">htmlPattern</span><span class="p">)</span>
-    <span class="p">.</span><span class="nf">pipe</span><span class="p">(</span><span class="nf">when</span><span class="p">(</span><span class="nx">argv</span><span class="p">.</span><span class="nx">prod</span><span class="p">,</span> <span class="nf">htmlmin</span><span class="p">({</span>
+<span class="nx">gulp</span><span class="p">.</span><span class="nx">task</span><span class="p">(</span><span class="dl">'</span><span class="s1">html</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="nx">gulp</span><span class="p">.</span><span class="nx">src</span><span class="p">(</span><span class="nx">paths</span><span class="p">.</span><span class="nx">siteFolderName</span> <span class="o">+</span> <span class="nx">paths</span><span class="p">.</span><span class="nx">htmlPattern</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">pipe</span><span class="p">(</span><span class="nx">when</span><span class="p">(</span><span class="nx">argv</span><span class="p">.</span><span class="nx">prod</span><span class="p">,</span> <span class="nx">htmlmin</span><span class="p">({</span>
       <span class="na">removeComments</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
       <span class="na">collapseWhitespace</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
       <span class="na">collapseBooleanAttributes</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
@@ -106,14 +106,14 @@
       <span class="na">minifyJS</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
       <span class="na">minifyCSS</span><span class="p">:</span> <span class="kc">true</span>
     <span class="p">})))</span>
-    <span class="p">.</span><span class="nf">pipe</span><span class="p">(</span><span class="nf">when</span><span class="p">(</span><span class="nx">argv</span><span class="p">.</span><span class="nx">prod</span><span class="p">,</span> <span class="nf">size</span><span class="p">({</span><span class="na">title</span><span class="p">:</span> <span class="dl">'</span><span class="s1">optimized HTML</span><span class="dl">'</span><span class="p">})))</span>
-    <span class="p">.</span><span class="nf">pipe</span><span class="p">(</span><span class="nf">when</span><span class="p">(</span><span class="nx">argv</span><span class="p">.</span><span class="nx">prod</span><span class="p">,</span> <span class="nx">gulp</span><span class="p">.</span><span class="nf">dest</span><span class="p">(</span><span class="nx">paths</span><span class="p">.</span><span class="nx">siteFolderName</span><span class="p">)))</span>
-    <span class="p">.</span><span class="nf">pipe</span><span class="p">(</span><span class="nf">when</span><span class="p">(</span><span class="nx">argv</span><span class="p">.</span><span class="nx">prod</span><span class="p">,</span> <span class="nf">gzip</span><span class="p">({</span><span class="na">append</span><span class="p">:</span> <span class="kc">true</span><span class="p">})))</span>
-    <span class="p">.</span><span class="nf">pipe</span><span class="p">(</span><span class="nf">when</span><span class="p">(</span><span class="nx">argv</span><span class="p">.</span><span class="nx">prod</span><span class="p">,</span> <span class="nf">size</span><span class="p">({</span>
+    <span class="p">.</span><span class="nx">pipe</span><span class="p">(</span><span class="nx">when</span><span class="p">(</span><span class="nx">argv</span><span class="p">.</span><span class="nx">prod</span><span class="p">,</span> <span class="nx">size</span><span class="p">({</span><span class="na">title</span><span class="p">:</span> <span class="dl">'</span><span class="s1">optimized HTML</span><span class="dl">'</span><span class="p">})))</span>
+    <span class="p">.</span><span class="nx">pipe</span><span class="p">(</span><span class="nx">when</span><span class="p">(</span><span class="nx">argv</span><span class="p">.</span><span class="nx">prod</span><span class="p">,</span> <span class="nx">gulp</span><span class="p">.</span><span class="nx">dest</span><span class="p">(</span><span class="nx">paths</span><span class="p">.</span><span class="nx">siteFolderName</span><span class="p">)))</span>
+    <span class="p">.</span><span class="nx">pipe</span><span class="p">(</span><span class="nx">when</span><span class="p">(</span><span class="nx">argv</span><span class="p">.</span><span class="nx">prod</span><span class="p">,</span> <span class="nx">gzip</span><span class="p">({</span><span class="na">append</span><span class="p">:</span> <span class="kc">true</span><span class="p">})))</span>
+    <span class="p">.</span><span class="nx">pipe</span><span class="p">(</span><span class="nx">when</span><span class="p">(</span><span class="nx">argv</span><span class="p">.</span><span class="nx">prod</span><span class="p">,</span> <span class="nx">size</span><span class="p">({</span>
       <span class="na">title</span><span class="p">:</span> <span class="dl">'</span><span class="s1">gzipped HTML</span><span class="dl">'</span><span class="p">,</span>
       <span class="na">gzip</span><span class="p">:</span> <span class="kc">true</span>
     <span class="p">})))</span>
-    <span class="p">.</span><span class="nf">pipe</span><span class="p">(</span><span class="nf">when</span><span class="p">(</span><span class="nx">argv</span><span class="p">.</span><span class="nx">prod</span><span class="p">,</span> <span class="nx">gulp</span><span class="p">.</span><span class="nf">dest</span><span class="p">(</span><span class="nx">paths</span><span class="p">.</span><span class="nx">siteFolderName</span><span class="p">)))</span>
+    <span class="p">.</span><span class="nx">pipe</span><span class="p">(</span><span class="nx">when</span><span class="p">(</span><span class="nx">argv</span><span class="p">.</span><span class="nx">prod</span><span class="p">,</span> <span class="nx">gulp</span><span class="p">.</span><span class="nx">dest</span><span class="p">(</span><span class="nx">paths</span><span class="p">.</span><span class="nx">siteFolderName</span><span class="p">)))</span>
 <span class="p">});</span>
 </pre></td></tr></tbody></table></code></pre></figure>
 
@@ -135,7 +135,7 @@
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1">
+    <li id="fn:1" role="doc-endnote">
       <p><a href="http://en.wikipedia.org/wiki/Syntax_highlighting">http://en.wikipedia.org/wiki/Syntax_highlighting</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>

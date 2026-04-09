@@ -5401,4 +5401,77 @@ article.page {
   font-size: 16px !important;
 }
 
+/* Hide feed link and RSS icon in footer */
+.page__footer-follow {
+  display: none !important;
+}
+
+/* Hide RSS feed from footer */
+.page__footer-follow,
+.page__footer-follow ul,
+a[href*="feed.xml"],
+.fa-rss {
+  display: none !important;
+}
+
+/* Match Squarespace body font spec */
+body, p, li {
+  font-weight: 400 !important;
+  line-height: 1.6em !important;
+  text-transform: none !important;
+  letter-spacing: 0.02em !important;
+}
+
+/* Match for nav and sidebar */
+.greedy-nav .visible-links a,
+.site-title,
+.author__bio {
+  letter-spacing: 0.02em !important;
+  font-weight: 400 !important;
+  line-height: 1.6em !important;
+}
+
+/* Restore italics for em tags */
+.page__content em,
+.page__content p em,
+.page__content li em {
+  font-style: italic !important;
+}
+
+/* Mobile fixes */
+@media (max-width: 768px) {
+  /* Remove gap between nav and body */
+  .sidebar {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+  }
+  /* Hide Follow button */
+  .btn--follow,
+  .follow-button {
+    display: none !important;
+  }
+  /* Stack two-column layouts vertically */
+  div[style*="display: flex"] {
+    flex-direction: column !important;
+  }
+  div[style*="width: 220px"] {
+    width: 100% !important;
+  }
+  /* Make images responsive */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
+/* Hide Follow button everywhere */
+.author__urls-wrapper button,
+.author__urls-wrapper .btn {
+  display: none !important;
+}
+
+.author__urls {
+  display: block !important;
+}
+
 /*# sourceMappingURL=main.css.map */
