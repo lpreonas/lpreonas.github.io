@@ -375,3 +375,42 @@ body, p, li {
 .author__urls {
   display: block !important;
 }
+
+/* Mobile fixes */
+@media (max-width: 900px) {
+  /* Remove gap - unfix the sidebar */
+  .sidebar.sticky {
+    position: relative !important;
+    top: auto !important;
+    width: auto !important;
+  }
+
+  /* Hide Follow button */
+  .author__urls-wrapper .btn,
+  .author__urls-wrapper button {
+    display: none !important;
+  }
+
+  .author__urls {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+
+  /* Stack two columns vertically on mobile */
+  .page__content div[style*="flex"] {
+    display: block !important;
+  }
+
+  .page__content div[style*="width: 220px"],
+  .page__content div[style*="flex-shrink"] {
+    width: 100% !important;
+    margin-top: 1em !important;
+  }
+
+  /* Responsive images */
+  .page__content img {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
