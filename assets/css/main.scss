@@ -414,3 +414,91 @@ body, p, li {
     height: auto !important;
   }
 }
+
+/* Hide Follow button and always show author links */
+.author__urls-wrapper .btn--inverse {
+  display: none !important;
+}
+
+.author__urls.social-icons {
+  display: block !important;
+}
+
+/* Mobile: stack two-column layouts */
+@media (max-width: 768px) {
+  .sidebar.sticky {
+    position: relative !important;
+    top: auto !important;
+    width: auto !important;
+    min-width: unset !important;
+  }
+
+  div[style*="display: flex"] {
+    display: block !important;
+  }
+
+  div[style*="width: 220px"] {
+    width: 100% !important;
+  }
+
+  .page__content img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
+
+/* Fix author links display - no popup */
+.author__urls-wrapper {
+  position: relative !important;
+}
+
+.author__urls.social-icons {
+  display: block !important;
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* Mobile: sidebar above content, not overlapping */
+@media (max-width: 1024px) {
+  .sidebar.sticky {
+    position: relative !important;
+    top: auto !important;
+    float: none !important;
+    width: 100% !important;
+    margin-bottom: 1em !important;
+  }
+
+  #main {
+    display: block !important;
+  }
+
+  .author__urls.social-icons {
+    display: inline-flex !important;
+    flex-wrap: wrap !important;
+    gap: 1em !important;
+  }
+}
+
+/* Hide sidebar on mobile */
+@media (max-width: 900px) {
+  .sidebar {
+    display: none !important;
+  }
+}
+
+/* Mobile: flush text to left edge */
+@media (max-width: 900px) {
+  .page__inner-wrap,
+  .page__content,
+  article.page {
+    margin-left: 0 !important;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+    width: 100% !important;
+  }
+}

@@ -27,3 +27,7 @@ after_footer_scripts:
 
 after_footer_scripts:
   - /assets/js/active-nav.js
+
+after_footer_scripts:
+  - /assets/js/active-nav.js
+  - /assets/js/mobile-sidebar.js
