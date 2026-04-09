@@ -3,11 +3,11 @@ name: "Louis Preonas"
 description: "Associate Professor, Agricultural and Resource Economics, University of Maryland"
 url: "https://lpreonas.github.io"
 
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "air"
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 
 plugins:
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 author:
   name: "Louis Preonas"
@@ -19,19 +19,3 @@ author:
       url: "https://scholar.google.com/citations?hl=en&user=KcsufWMAAAAJ"
 
 permalink: /:title/
-
-navigation:
-  - title: "Home"
-    url: /
-  - title: "Bio"
-    url: /bio/
-  - title: "CV"
-    url: /files/preonas_cv.pdf
-  - title: "Research"
-    url: /research/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "Office Hours"
-    url: /office-hours/
-  - title: "Contact"
-    url: /contact/
