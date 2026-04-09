@@ -574,3 +574,21 @@ body, p, li {
   font-style: italic !important;
   font-size: 1.15em !important;
 }
+
+/* Mobile image ordering */
+@media (max-width: 900px) {
+  /* Index: image (home-image) on top, text below */
+  .home-image {
+    order: -1 !important;
+  }
+
+  /* Bio and contact: force image to bottom */
+  .page__content div[style*="flex-shrink: 0"] {
+    order: 99 !important;
+  }
+
+  /* But not on index page */
+  .home-image {
+    order: -1 !important;
+  }
+}
