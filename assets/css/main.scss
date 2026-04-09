@@ -297,3 +297,8 @@ article.page {
 .page__content li em strong {
   font-size: 16px !important;
 }
+
+/* Hide feed link and RSS icon in footer */
+.page__footer-follow {
+  display: none !important;
+}
