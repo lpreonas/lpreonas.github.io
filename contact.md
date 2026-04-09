@@ -1,6 +1,11 @@
-# Contact
+---
+layout: single
+title: "Contact"
+author_profile: true
+permalink: /contact/
+---
 
-![Monkeys on a transformer in Jaipur](images/jaipur_monkeys.jpeg)
+![Monkeys on a transformer in Jaipur](/images/jaipur_monkeys.jpeg)
 
 *A barrel of monkeys posing on a transformer in Jaipur.*
 
@@ -12,4 +17,4 @@ lpreonas [at] umd [dot] edu
 
 [2104 Symons Hall  
 7998 Regents Drive  
-College Park, MD 20742](https://www.google.com/maps/place/Symons+Hall,+7998+Regents+Dr,+College+Park,+MD+20742/@38.9860113,-76.9418781,16.62z/data=!4m5!3m4!1s0x89b7c6bd5bc8f78b:0xced91b3d9d883cc3!8m2!3d38.9870947!4d-76.9406504)
+College Park, MD 20742](https://www.google.com/maps/place/Symons+Hall,+7998+Regents+Dr,+College+Park,+MD+20742/)

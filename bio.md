@@ -1,6 +1,11 @@
-# Bio
+---
+layout: single
+title: "Bio"
+author_profile: true
+permalink: /bio/
+---
 
-![A meadow in Kings Canyon National Park](images/kings_canyon_log.jpg)
+![A meadow in Kings Canyon National Park](/images/kings_canyon_log.jpeg)
 
 *A meadow in a canyon, in Kings Canyon National Park.*
 

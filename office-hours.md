@@ -1,6 +1,11 @@
-# Office Hours
+---
+layout: single
+title: "Office Hours"
+author_profile: true
+permalink: /office-hours/
+---
 
-![Lake Superior](images/lake_superior2.jpeg)
+![Lake Superior](/images/lake_superior2.jpeg)
 
 *Greetings from Lake Superior!*
 
