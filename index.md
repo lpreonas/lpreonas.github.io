@@ -3,9 +3,11 @@ layout: single
 author_profile: true
 ---
 
-
 <div style="display: flex; gap: 2em; align-items: flex-start;">
-<div style="flex: 1;" markdown="1">
+<div class="home-image" style="width: 300px; flex-shrink: 0;">
+<img src="/images/preonas_headshot.jpeg" style="width: 100%;">
+</div>
+<div class="home-text" style="flex: 1;" markdown="1">
 
 I am an Associate Professor in the [Department of Agricultural and Resource Economics](https://www.arec.umd.edu), at the [University of Maryland, College Park](https://www.umd.edu).
 
@@ -15,10 +17,7 @@ I also work at the intersection of environmental and development economics, focu
 
 In addition, my research focuses on the intersection of energy, water, and agriculture. A [recent working paper](/files/bpw_water_paper_with_appendix.pdf) combines (i) detailed electricity data for California farmers, (ii) detailed technical audits for 12,000 agricultural groundwater pumps, (iii) high-frequency measurements of groundwater depth, and (iv) satellite-derived measures of crop cover—in order to estimate how changes in the cost of pumping groundwater impact both agricultural groundwater use and cropping decisions. Current extensions of this project include estimating how temperature-induced irrigation impacts groundwater resources, and estimating how the Federal Crop Insurance Program influences farmers' crop choices.
 
-</div>
-<div style="width: 320px; flex-shrink: 0;">
-<img src="/images/preonas_headshot.jpeg" style="width: 100%;">
-</div>
-</div>
+[[Google Scholar profile](https://scholar.google.com/citations?hl=en&user=KcsufWMAAAAJ)]
 
-
+</div>
+</div>

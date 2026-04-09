@@ -28,3 +28,15 @@ document.addEventListener("DOMContentLoaded", function() {
   hiddenLinks.appendChild(bioItem);
   hiddenLinks.appendChild(linksItem);
 });
+
+// On mobile, move headshot above text on home page
+if (window.innerWidth <= 900) {
+  var flexDivs = document.querySelectorAll('.page__content div[style*="flex"]');
+  flexDivs.forEach(function(div) {
+    var children = Array.from(div.children);
+    if (children.length === 2) {
+      // Move the image div (second child) before the text div (first child)
+      div.insertBefore(children[1], children[0]);
+    }
+  });
+}

@@ -14,7 +14,7 @@ In 2012, I started my PhD in [Agricultural and Resource Economics](https://are.b
 In July 2018, I began a one-year postdoc at the University of Chicago [Department of Economics](https://economics.uchicago.edu/), working in the [Energy Policy Institute](https://epic.uchicago.edu). In August 2019, I joined the faculty at the University of Maryland, College Park, as an Assistant Professor of [Agricultural and Resource Economics](http://www.arec.umd.edu). I was awarded tenure and promoted to Associate Professor in 2025.
 
 </div>
-<div style="width: 310px; flex-shrink: 0;">
+<div style="width: 370px; flex-shrink: 0;">
 <img src="/images/kings_canyon_log.jpeg" style="width: 100%;">
 <p style="font-style: italic; font-size: 12px; margin-top: 0.5em;">A meadow in a canyon, in Kings Canyon National Park.</p>
 </div>

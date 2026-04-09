@@ -4,7 +4,7 @@ author_profile: true
 permalink: /research/
 ---
 
-## Published Papers
+### Published Papers
 
 - "[Blackouts: The Role of India's Wholesale Electricity Market](/files/JPB_blackouts.pdf)"  
   Conditionally accepted at ***American Economic Journal: Economic Policy***  
@@ -64,7 +64,7 @@ permalink: /research/
   (with [Carolyn Fischer](https://www.worldbank.org/en/about/people/c/carolyn-fischer))
 
 
-## Working Papers
+### Working Papers
 
 - "[Groundwater and Crop Choice in the Short and Long Run](/files/bpw_water_paper_with_appendix.pdf)" [updated February 2026!]  
   Revise and resubmit, ***Review of Economic Studies***  
@@ -76,7 +76,7 @@ permalink: /research/
   [[The Hill](https://thehill.com/policy/energy-environment/4797942-california-farmers-groundwater-usage-charge-research/)]
 
 
-## Selected Works in Progress
+### Selected Works in Progress
 
 - "The Market and Environmental Impacts of India's Renewable Energy Expansion"  
   (with [Fiona Burlig](http://www.fionaburlig.com/) and [Akshaya Jha](http://home.akshayajha.com/))

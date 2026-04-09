@@ -5290,7 +5290,7 @@ nav.greedy-nav {
 /* Match Louis Preonas title to nav font size and weight */
 .site-title {
   font-family: "Inter", sans-serif !important;
-  font-size: 1.3em !important;
+  font-size: 1.15em !important;
   font-weight: 500 !important;
   color: hsl(0, 0%, 23%) !important;
 }
@@ -5585,6 +5585,68 @@ body, p, li {
     padding-right: 1em !important;
     width: 100% !important;
   }
+}
+/* Mobile: show headshot before text on home page */
+@media (max-width: 900px) {
+  div[style*="display: flex"] {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+  div[style*="width: 220px"] {
+    width: 100% !important;
+  }
+}
+/* Desktop: image on right, text on left */
+@media (min-width: 901px) {
+  .home-image {
+    order: 2 !important;
+  }
+  .home-text {
+    order: 1 !important;
+  }
+}
+/* Mobile: image on top, full width */
+@media (max-width: 900px) {
+  .home-image {
+    width: 100% !important;
+    order: 1 !important;
+  }
+  .home-text {
+    order: 2 !important;
+  }
+}
+/* Mobile: image below text on bio and contact */
+@media (max-width: 900px) {
+  .page-image {
+    order: 3 !important;
+    width: 100% !important;
+  }
+}
+/* Mobile: stack flex columns, image ends up below text */
+@media (max-width: 900px) {
+  .page__content > div[style*=flex],
+  .page__content div[style*="display: flex"] {
+    flex-direction: column !important;
+  }
+  .page__content div[style*=flex-shrink],
+  .page__content div[style*="width: 220px"],
+  .page__content div[style*="width: 310px"] {
+    width: 100% !important;
+  }
+  /* Index page: image (first child) stays on top */
+  .home-image {
+    order: 1 !important;
+    width: 100% !important;
+  }
+  .home-text {
+    order: 2 !important;
+  }
+}
+/* h3 headers match h2 styling */
+.page__content h3 {
+  font-weight: 400 !important;
+  font-style: italic !important;
+  font-size: 1.15em !important;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,7 +4,7 @@ author_profile: true
 permalink: /teaching/
 ---
 
-## Maryland
+### Maryland
 
 - [AREC 422: Econometric Analysis in Agricultural and Environmental Economics](/files/AREC422_spring2025_syllabus.pdf), Fall 2019–2022, Spring 2025  
   Upper-level undergraduate course that introduces students to applied econometric methods.
@@ -17,7 +17,7 @@ permalink: /teaching/
 
 ---
 
-## UC Berkeley
+### UC Berkeley
 
 - [EEP 147: Regulation of Energy and the Environment](/files/EEP_syllabus_2016.pdf), Spring 2016 (Graduate Student Instructor)  
   Received [Outstanding GSI Award](http://gsi.berkeley.edu/programs-services/award-programs/ogsi/ogsi-2017/) for 2016–2017.
