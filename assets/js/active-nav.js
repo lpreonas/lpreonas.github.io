@@ -25,3 +25,10 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 });
+
+// Open sidebar links in new tabs
+var sidebarLinks = document.querySelectorAll(".author__urls a");
+sidebarLinks.forEach(function(link) {
+  link.setAttribute("target", "_blank");
+  link.setAttribute("rel", "noopener noreferrer");
+});
