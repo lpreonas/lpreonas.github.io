@@ -592,3 +592,14 @@ body, p, li {
     order: -1 !important;
   }
 }
+
+/* Mobile: bio and contact - text on top, image on bottom */
+@media (max-width: 900px) {
+  .page__content div[style*="flex: 1"] {
+    order: 1 !important;
+  }
+
+  .page__content div[style*="flex-shrink: 0"]:not(.home-image) {
+    order: 2 !important;
+  }
+}

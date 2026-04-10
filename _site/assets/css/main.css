@@ -5649,4 +5649,29 @@ body, p, li {
   font-size: 1.15em !important;
 }
 
+/* Mobile image ordering */
+@media (max-width: 900px) {
+  /* Index: image (home-image) on top, text below */
+  .home-image {
+    order: -1 !important;
+  }
+  /* Bio and contact: force image to bottom */
+  .page__content div[style*="flex-shrink: 0"] {
+    order: 99 !important;
+  }
+  /* But not on index page */
+  .home-image {
+    order: -1 !important;
+  }
+}
+/* Mobile: bio and contact - text on top, image on bottom */
+@media (max-width: 900px) {
+  .page__content div[style*="flex: 1"] {
+    order: 1 !important;
+  }
+  .page__content div[style*="flex-shrink: 0"]:not(.home-image) {
+    order: 2 !important;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
