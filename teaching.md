@@ -7,7 +7,7 @@ permalink: /teaching/
 ### Maryland
 
 - [AREC 254: Charting a Sustainable Future: Integrating Economics and Policy for Climate Action](/s/AREC254_fall2026_syllabus.pdf)  
-  Spring 2025, Fall 2026
+  Spring 2025, Fall 2026  
   Introductory undergraduate course on the economics of climate change and climate policy.
 
 - [AREC 845: Environment and Development Economics](/s/AREC845_fall2026_syllabus.pdf)  
