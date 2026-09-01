@@ -67,7 +67,7 @@ permalink: /research/
 ### Working Papers
 
 - "[Groundwater and Crop Choice in the Short and Long Run](/s/bpw_water_paper_with_appendix.pdf)" [updated February 2026!]  
-  Revise and resubmit, ***Review of Economic Studies***  
+  Revise and resubmit (2nd round), ***Review of Economic Studies***  
   (with [Fiona Burlig](http://www.fionaburlig.com/) and [Matt Woerman](https://sites.google.com/site/mattwoerman/))  
   [[Forbes piece](https://www.forbes.com/sites/ucenergy/2019/07/30/amid-climate-linked-drought-farmers-turn-to-new-water-sources-those-are-drying-up-too/)]
   [[Forecast Direct podcast](https://forecastdirect.podbean.com/e/groundwater-use-in-california-agriculture/)]
@@ -77,9 +77,6 @@ permalink: /research/
 
 
 ### Selected Works in Progress
-
-- "The Market and Environmental Impacts of India's Renewable Energy Expansion"  
-  (with [Fiona Burlig](http://www.fionaburlig.com/) and [Akshaya Jha](http://home.akshayajha.com/))
 
 - "Groundwater in a Changing Climate"  
   (with [Fiona Burlig](http://www.fionaburlig.com/), [Aaron Hrozencik](https://scholar.google.com/citations?user=KjxxEGUAAAAJ&hl=en), and [Matt Woerman](https://sites.google.com/site/mattwoerman/))
@@ -95,6 +92,15 @@ permalink: /research/
 
 - "Exporting Carbon: U.S. Coal Demand, International Leakage, and Implications for Climate Policy"  
   (with [Joshua Blonz](http://www.joshua.blonz.com/))
+
+- "IRA Subsidies for EVs, Import Tariffs, and Domestic Industry"  
+  (with [Joshua Linn](https://sites.google.com/umd.edu/joshualinn/home))
+
+- "Explicitly Tracking the Growth of U.S. Electricity Transmission in the U.S."  
+  (with [Richard Sweeney](https://www.richard-sweeney.com/) and [Charles Taylor](https://ca-taylor.com/))
+
+- "The Market and Environmental Impacts of India's Renewable Energy Expansion"  
+  (with [Fiona Burlig](http://www.fionaburlig.com/), [Akshaya Jha](http://home.akshayajha.com/), and [Anshuman Tiwari](https://anshuman-econ.github.io/))
 
 
 
