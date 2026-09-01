@@ -6,13 +6,16 @@ permalink: /teaching/
 
 ### Maryland
 
-- [AREC 254: Charting a Sustainable Future: Integrating Economics and Policy for Climate Action](/s/AREC254_fall2026_syllabus.pdf), Spring 2025, Fall 2026
+- [AREC 254: Charting a Sustainable Future: Integrating Economics and Policy for Climate Action](/s/AREC254_fall2026_syllabus.pdf)  
+  Spring 2025, Fall 2026
   Introductory undergraduate course on the economics of climate change and climate policy.
 
-- [AREC 845: Environment and Development Economics](/s/AREC845_fall2026_syllabus.pdf), Fall 2020–2022, Spring 2024, Fall 2026  
+- [AREC 845: Environment and Development Economics](/s/AREC845_fall2026_syllabus.pdf)  
+  Fall 2020–2022, Spring 2024, Fall 2026  
   PhD-level field course on the intersection of environmental economics and development economics.
 
-- [AREC 422: Econometric Analysis in Agricultural and Environmental Economics](/s/AREC422_spring2025_syllabus.pdf), Fall 2019–2022, Spring 2025  
+- [AREC 422: Econometric Analysis in Agricultural and Environmental Economics](/s/AREC422_spring2025_syllabus.pdf)  
+  Fall 2019–2022, Spring 2025  
   Upper-level undergraduate course that introduces students to applied econometric methods.
 
 ---
