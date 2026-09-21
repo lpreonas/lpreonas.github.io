@@ -7,7 +7,7 @@ permalink: /research/
 ### Published Papers
 
 - "[Blackouts: The Role of India's Wholesale Electricity Market](/s/JPB_blackouts.pdf)"  
-  Conditionally accepted at ***American Economic Journal: Economic Policy***  
+  ***American Economic Journal: Economic Policy***, forthcoming.  
   (with [Fiona Burlig](http://www.fionaburlig.com/) and [Akshaya Jha](http://home.akshayajha.com/))  
   [[VoxDev piece](https://voxdev.org/topic/energy-environment/reducing-electricity-blackouts-developing-countries-evidence-india)]
   [[VoxEU piece](https://voxeu.org/article/reducing-electricity-blackouts-developing-countries)]
@@ -66,7 +66,7 @@ permalink: /research/
 
 ### Working Papers
 
-- "[Groundwater and Crop Choice in the Short and Long Run](/s/bpw_water_paper_with_appendix.pdf)" [updated February 2026!]  
+- "[Groundwater and Crop Choice in the Short and Long Run](/s/bpw_water_paper_with_appendix.pdf)"   
   Revise and resubmit (2nd round), ***Review of Economic Studies***  
   (with [Fiona Burlig](http://www.fionaburlig.com/) and [Matt Woerman](https://sites.google.com/site/mattwoerman/))  
   [[Forbes piece](https://www.forbes.com/sites/ucenergy/2019/07/30/amid-climate-linked-drought-farmers-turn-to-new-water-sources-those-are-drying-up-too/)]
