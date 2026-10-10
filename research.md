@@ -96,7 +96,7 @@ permalink: /research/
 - "IRA Subsidies for EVs, Import Tariffs, and Domestic Industry"  
   (with [Joshua Linn](https://sites.google.com/umd.edu/joshualinn/home))
 
-- "Explicitly Tracking the Growth of U.S. Electricity Transmission in the U.S."  
+- "Explicitly Tracking the Growth of U.S. Electricity Transmission"  
   (with [Richard Sweeney](https://www.richard-sweeney.com/) and [Charles Taylor](https://ca-taylor.com/))
 
 - "The Market and Environmental Impacts of India's Renewable Energy Expansion"  
