@@ -47,7 +47,7 @@ permalink: /research/
   (with [H. Jo Albers](https://www.uwyo.edu/business/about-us/directory/albers-jo.html), [Tabaré Capitán](https://www.tabarecapitan.com/), [Elizabeth Robinson](https://www.lse.ac.uk/geography-and-environment/people/academic-staff/elizabeth-robinson), and [Róger Madrigal-Ballestero](https://efdinitiative.org/about-efd/people/madrigal-roger))
 
 - "[Panel Data and Experimental Design](https://doi.org/10.1016/j.jdeveco.2020.102458)"  
-  ***Journal of Development Economics*** 144: 102548. 2020.  
+  ***Journal of Development Economics*** 144: 102458. 2020.  
   (with [Fiona Burlig](http://www.fionaburlig.com/) and [Matt Woerman](https://sites.google.com/site/mattwoerman/))  
   [[ungated PDF](/s/BPW_power_calcs.pdf)]
   [[online appendix](/s/BPW_power_calcs_appendix.pdf)]
